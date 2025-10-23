@@ -86,7 +86,7 @@
                 </div>
                 
                 <!-- Registration Form -->
-                <form>
+                <form action="login.html" method="get">
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <label for="firstName" class="form-label text-white">First Name</label>
@@ -149,7 +149,7 @@
                   <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input border-warning" id="agreeTerms">
                     <label class="form-check-label text-white-50" for="agreeTerms">
-                      I agree to the <a href="#" class="text-warning">Terms and Conditions</a> and <a href="#" class="text-warning">Privacy Policy</a>
+                      I agree to the <a href="#" class="text-warning" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Conditions</a> and <a href="#" class="text-warning" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
                     </label>
                   </div>
                   <div class="mb-3 form-check">
@@ -175,6 +175,127 @@
         </div>
       </div>
     </section>
+
+    
+    <!-- Terms and Conditions Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content bg-dark border-warning">
+          <div class="modal-header border-warning">
+            <h5 class="modal-title text-warning" id="termsModalLabel">
+              <i class="bi bi-file-text me-2"></i>Terms and Conditions
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-white">
+            <h6 class="text-warning">1. Acceptance of Terms</h6>
+            <p>By accessing and using Yoga Car Deals website and services, you accept and agree to be bound by the terms and provisions of this agreement.</p>
+
+            <h6 class="text-warning mt-3">2. Use License</h6>
+            <p>Permission is granted to temporarily access the materials on Yoga Car Deals' website for personal, non-commercial viewing only. This is the grant of a license, not a transfer of title.</p>
+
+            <h6 class="text-warning mt-3">3. Vehicle Purchases</h6>
+            <p>All vehicle purchases are subject to availability and verification of payment. Prices are subject to change without notice. Final purchase agreements will be executed separately.</p>
+
+            <h6 class="text-warning mt-3">4. Account Registration</h6>
+            <p>You must provide accurate and complete information when creating an account. You are responsible for maintaining the confidentiality of your account credentials.</p>
+
+            <h6 class="text-warning mt-3">5. Payment Terms</h6>
+            <p>All payments must be made in full before delivery. We accept various payment methods as indicated at checkout. All sales are final unless otherwise stated.</p>
+
+            <h6 class="text-warning mt-3">6. Delivery and Transfer</h6>
+            <p>Vehicle delivery timelines are estimates only. Title and risk of loss transfer upon delivery. Buyer is responsible for registration and insurance.</p>
+
+            <h6 class="text-warning mt-3">7. Warranty Disclaimer</h6>
+            <p>Vehicles are sold as-is unless explicitly covered by manufacturer warranty. Yoga Car Deals makes no additional warranties beyond those provided by manufacturers.</p>
+
+            <h6 class="text-warning mt-3">8. Limitation of Liability</h6>
+            <p>Yoga Car Deals shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services.</p>
+
+            <h6 class="text-warning mt-3">9. Modifications to Terms</h6>
+            <p>We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of modified terms.</p>
+
+            <h6 class="text-warning mt-3">10. Contact Information</h6>
+            <p>For questions about these Terms and Conditions, please contact us through our Contact page.</p>
+
+            <p class="text-white-50 mt-4"><small>Last updated: October 2024</small></p>
+          </div>
+          <div class="modal-footer border-warning">
+            <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content bg-dark border-warning">
+          <div class="modal-header border-warning">
+            <h5 class="modal-title text-warning" id="privacyModalLabel">
+              <i class="bi bi-shield-check me-2"></i>Privacy Policy
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-white">
+            <h6 class="text-warning">1. Information We Collect</h6>
+            <p>We collect personal information that you provide to us such as name, email address, phone number, and payment information when you register or make a purchase.</p>
+
+            <h6 class="text-warning mt-3">2. How We Use Your Information</h6>
+            <p>We use your information to:</p>
+            <ul>
+              <li>Process your vehicle purchases and transactions</li>
+              <li>Send you updates about your orders</li>
+              <li>Communicate promotional offers (if subscribed)</li>
+              <li>Improve our services and customer experience</li>
+              <li>Comply with legal obligations</li>
+            </ul>
+
+            <h6 class="text-warning mt-3">3. Information Sharing</h6>
+            <p>We do not sell your personal information. We may share your information with:</p>
+            <ul>
+              <li>Service providers who assist in our operations</li>
+              <li>Financial institutions for payment processing</li>
+              <li>Legal authorities when required by law</li>
+            </ul>
+
+            <h6 class="text-warning mt-3">4. Data Security</h6>
+            <p>We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.</p>
+
+            <h6 class="text-warning mt-3">5. Cookies and Tracking</h6>
+            <p>We use cookies and similar tracking technologies to improve your browsing experience and analyze site usage. You can control cookie preferences through your browser settings.</p>
+
+            <h6 class="text-warning mt-3">6. Your Rights</h6>
+            <p>You have the right to:</p>
+            <ul>
+              <li>Access your personal information</li>
+              <li>Request correction of inaccurate data</li>
+              <li>Request deletion of your data</li>
+              <li>Opt-out of marketing communications</li>
+              <li>Withdraw consent for data processing</li>
+            </ul>
+
+            <h6 class="text-warning mt-3">7. Children's Privacy</h6>
+            <p>Our services are not intended for individuals under 18 years of age. We do not knowingly collect information from children.</p>
+
+            <h6 class="text-warning mt-3">8. International Data Transfers</h6>
+            <p>Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place.</p>
+
+            <h6 class="text-warning mt-3">9. Policy Updates</h6>
+            <p>We may update this Privacy Policy periodically. We will notify you of significant changes via email or website notice.</p>
+
+            <h6 class="text-warning mt-3">10. Contact Us</h6>
+            <p>If you have questions about this Privacy Policy or how we handle your data, please contact us through our Contact page.</p>
+
+            <p class="text-white-50 mt-4"><small>Last updated: October 2024</small></p>
+          </div>
+          <div class="modal-footer border-warning">
+            <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Footer -->
   
