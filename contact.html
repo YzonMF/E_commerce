@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Yoga Car Deals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <img src="Images/log.png" alt="Logo" width="100" height="120"
+              class="d-inline-block align-text-middle p-2">
+            <span class="text-warning"></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="home.html"><i
+                    class="bi bi-house-door text-warning"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="about.html"><i class="bi bi-person text-warning"></i> About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="contact.html"><i class="bi bi-telephone text-warning"></i> Contact us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-bag text-warning"></i> Products
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item text-white" href="products.html">View All Brands</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-white" href="bentley.html">Bentley</a></li>
+                  <li><a class="dropdown-item text-white" href="rolls-royce.html">Rolls-Royce</a></li>
+                  <li><a class="dropdown-item text-white" href="land-rover.html">Land Rover</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="cart.html"><i class="bi bi-cart text-warning"></i> Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 bg-black text-white border-warning" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="login.html"><i class="bi bi-box-arrow-in-right text-warning"></i> Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="register.html"><i class="bi bi-box-arrow-in-right text-warning"></i> Register</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="contact-hero text-center text-white">
+      <div class="container">
+        <h1 class="display-4 fw-bold text-warning mb-3">Get In Touch</h1>
+        <p class="lead mb-4">We're here to assist you with all your luxury automotive needs</p>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="mb-0">Have questions about our luxury vehicles? Our team of experts is ready to provide personalized assistance and help you find the perfect car for your lifestyle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form & Details Section -->
+    <section class="container my-5">
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-lg-8 mb-5">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-header bg-black text-warning">
+              <h3 class="mb-0"><i class="bi bi-envelope me-2"></i>Send Us a Message</h3>
+            </div>
+            <div class="card-body p-4">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label text-white">First Name <span class="text-warning">*</span></label>
+                    <input type="text" class="form-control bg-dark border-warning text-white" id="firstName" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label text-white">Last Name <span class="text-warning">*</span></label>
+                    <input type="text" class="form-control bg-dark border-warning text-white" id="lastName" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label text-white">Email Address <span class="text-warning">*</span></label>
+                    <input type="email" class="form-control bg-dark border-warning text-white" id="email" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="phone" class="form-label text-white">Phone Number</label>
+                    <input type="tel" class="form-control bg-dark border-warning text-white" id="phone">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label text-white">Subject <span class="text-warning">*</span></label>
+                  <select class="form-select bg-dark border-warning text-white" id="subject" required>
+                    <option value="" selected disabled>Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="test-drive">Schedule a Test Drive</option>
+                    <option value="pricing">Pricing Information</option>
+                    <option value="service">Service & Maintenance</option>
+                    <option value="warranty">Warranty Information</option>
+                    <option value="finance">Financing Options</option>
+                    <option value="trade-in">Trade-In Valuation</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label text-white">Message <span class="text-warning">*</span></label>
+                  <textarea class="form-control bg-dark border-warning text-white" id="message" rows="5" required></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input border-warning" id="newsletter">
+                  <label class="form-check-label text-white-50" for="newsletter">
+                    Subscribe to our newsletter for exclusive offers and updates
+                  </label>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-warning btn-lg">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="col-lg-4">
+          <div class="card bg-dark border-warning mb-4 contact-info-card">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <h5 class="text-warning">Contact Information</h5>
+                <p class="text-white-50 mb-1"><i class="bi bi-geo-alt text-warning me-2"></i> 123 Luxury Avenue, Premium District</p>
+                <p class="text-white-50 mb-1"><i class="bi bi-telephone text-warning me-2"></i> (555) 123-4567</p>
+                <p class="text-white-50 mb-1"><i class="bi bi-envelope text-warning me-2"></i> info@yogacardeals.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-dark border-warning mb-4 contact-info-card">
+            <div class="card-body p-4">
+              <h3 class="card-title text-warning mb-4"><i class="bi bi-clock me-2"></i>Business Hours</h3>
+              <ul class="list-unstyled text-white-50">
+                <li class="mb-2 d-flex justify-content-between">
+                  <span>Monday - Friday</span>
+                  <span>9:00 AM - 7:00 PM</span>
+                </li>
+                <li class="mb-2 d-flex justify-content-between">
+                  <span>Saturday</span>
+                  <span>10:00 AM - 6:00 PM</span>
+                </li>
+                <li class="mb-2 d-flex justify-content-between">
+                  <span>Sunday</span>
+                  <span>11:00 AM - 5:00 PM</span>
+                </li>
+                <li class="mb-0 d-flex justify-content-between">
+                  <span>Holidays</span>
+                  <span>By Appointment</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card bg-dark border-warning contact-info-card">
+            <div class="card-body p-4">
+              <h3 class="card-title text-warning mb-4"><i class="bi bi-headset me-2"></i>Quick Contact</h3>
+              <div class="mb-3">
+                <h6 class="text-warning">Sales Department</h6>
+                <p class="text-white-50 mb-0">(555) 123-4568</p>
+                <p class="text-white-50">sales@yogacardeals.com</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-warning">Service Department</h6>
+                <p class="text-white-50 mb-0">(555) 123-4569</p>
+                <p class="text-white-50">service@yogacardeals.com</p>
+              </div>
+              <div>
+                <h6 class="text-warning">Finance Department</h6>
+                <p class="text-white-50 mb-0">(555) 123-4570</p>
+                <p class="text-white-50">finance@yogacardeals.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container my-5">
+      <h2 class="text-center text-warning mb-5">Frequently Asked Questions</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item bg-dark border-warning">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                  How do I schedule a test drive?
+                </button>
+              </h2>
+              <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white-50">
+                  You can schedule a test drive by calling our sales department at (555) 123-4568, using the contact form above, or visiting our showroom during business hours. We recommend scheduling in advance to ensure your preferred vehicle is available.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark border-warning">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                  Do you offer financing options?
+                </button>
+              </h2>
+              <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white-50">
+                  Yes, we work with several premium financial institutions to offer competitive financing options for our clients. Our finance department can help you find the best solution for your needs. Contact them at (555) 123-4570 or finance@yogacardeals.com.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark border-warning">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                  What is your warranty policy?
+                </button>
+              </h2>
+              <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white-50">
+                  All our vehicles come with comprehensive warranty packages. The specific terms vary by manufacturer and vehicle. Our sales representatives can provide detailed information about warranty coverage for any vehicle you're interested in.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-dark border-warning">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                  Do you accept trade-ins?
+                </button>
+              </h2>
+              <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white-50">
+                  Yes, we accept trade-ins for luxury and premium vehicles. Our appraisal team will evaluate your vehicle and provide a competitive offer. You can start the process by submitting details about your vehicle through our contact form or visiting our showroom.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Footer -->
+  <div class="container-fluid mt-5">
+    <footer class="bg-black text-light text-lg-start pt-5 border-top border-warning border-2">
+      <div class="container p-4">
+        <div class="row mt-4 justify-content-center">
+          
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 text-warning fw-semibold">About Yoga Car Deals</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-light text-opacity-75 text-decoration-none">
+                  <i class="bi bi-info-circle me-2 text-warning"></i>About Us
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="products.html" class="text-light text-opacity-75 text-decoration-none">
+                  <i class="bi bi-briefcase me-2 text-warning"></i>Our Brands
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Customer Support -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4 text-warning fw-semibold">Customer Support</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <a href="contact.html" class="text-light text-opacity-75 text-decoration-none">
+                      <i class="bi bi-telephone me-2 text-warning"></i>Contact Support
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" class="text-light text-opacity-75 text-decoration-none">
+                      <i class="bi bi-question-circle me-2 text-warning"></i>FAQ
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="bg-black text-center p-3 border-top border-warning">
+        <p class="mb-0 small">© 2024 Yoga Car Deals. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  </body>
+</html>

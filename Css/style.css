@@ -1,0 +1,52 @@
+/* about styles */
+.mission-card {
+    transition: transform 0.3s ease;
+}
+.mission-card:hover {
+    transform: translateY(-5px);
+}
+
+/* contact styles */
+.contact-hero {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('Images/contact-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+}
+.contact-info-card {
+        transition: transform 0.3s ease;
+}
+.contact-info-card:hover {
+        transform: translateY(-5px);
+}
+.form-control:focus {
+        border-color: #ffc107;
+        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+/* login styles - register */
+.auth-container {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+}
+.auth-card {
+        box-shadow: 0 0 20px rgba(255, 193, 7, 0.1);
+        transition: transform 0.3s ease;
+}
+.auth-card:hover {
+        transform: translateY(-5px);
+}
+.form-control:focus {
+        border-color: #ffc107;
+        box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+/* all dropdown,footer */
+.dropdown-item:hover {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+footer a:hover{
+  color: #ffc107 !important;
+}
